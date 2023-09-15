@@ -12,7 +12,12 @@ class UserController {
       const user = await collections.users?.findOne({email: data.email });
 
       if (user) {
-        return res.status(422).json({ message: `User ${data.email} already exists.` });
+        return res.status(422).json({
+          status: 'success',
+          message: `User ${data.email} already exists.`,
+          payload:  [],
+        });
+
       }
       await collections.users?.insertOne(data);
       return res.status(201).json({

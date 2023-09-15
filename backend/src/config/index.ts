@@ -6,6 +6,7 @@ const MONGODB_USERNAME = process.env.MONGODB_USERNAME || '';
 const MONGODB_PASSWORD = process.env.MONGODB_PASSWORD || '';
 const DB_NAME = process.env.DB_NAME || '';
 const COLLECTION_NAME = process.env.COLLECTION_NAME || '';
+// String de conexão 
 const MONGODB_STRINGCONNECT = `mongodb+srv://${MONGODB_USERNAME}:${MONGODB_PASSWORD}@cluster0.3tlotsp.mongodb.net/`;
 
 const SERVER_PORT = process.env.SERVER_PORT ? Number(process.env.SERVER_PORT) : 3000;

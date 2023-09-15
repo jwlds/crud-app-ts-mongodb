@@ -21,7 +21,7 @@ const StartServer = () => {
   router.use((req,res,next) => {
     ChalkLog.info(`IP:[${req.socket.remoteAddress}]/nURL:[${req.url}]Method:[${req.method}]`)
     res.on('finish',() => {
-      ChalkLog.info(`Status:[${res.statusCode}]IP:[${req.socket.remoteAddress}]/nURL:[${req.url}]Method:[${req.method}]`)
+      ChalkLog.info(`Status:[${res.statusCode}] || IP:[${req.socket.remoteAddress}] || URL:[${req.url}] || Method:[${req.method}]`)
     });
 
     next();
