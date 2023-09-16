@@ -109,6 +109,23 @@ COLLECTION_NAME = "";
 
 <p>Use a interface para interagir com o aplicativo CRUD e realizar operações de criação, leitura, atualização e exclusão de registros.</p>
 
+<h3>Funcionalidades</h3>
+<ol>
+  <l1>Criar um novo usuário.</l1>
+  
+  ![Screencast from 16-09-2023 09_37_26](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/845d0e91-f9ff-417d-8dca-4cca2dc7b7e0)
+
+   <l1>Alterar informações do usuário.</l1>
+   
+  ![Screencast from 16-09-2023 09_38_04](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/8758fdf4-f1b4-48e1-b1ce-add75896ace1)
+
+   <l1>Deletar um usuário.</l1>
+   
+  ![Screencast from 16-09-2023 09_39_21](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/496aa7cd-def4-4965-a49c-4c64312045d4)
+
+   
+</ol>
+
 <h3>Observação:</h3>
 
 <p>Certifique-se de que o servidor CRUD esteja em execução antes de usar a interface React.js para que ela possa se conectar à API do servidor.</p>
