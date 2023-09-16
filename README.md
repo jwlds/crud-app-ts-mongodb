@@ -91,21 +91,12 @@ COLLECTION_NAME = "";
 </ol>
 
 <ol>
-  <p>Configure as variáveis de ambiente necessárias para a interface React.js. Crie um arquivo <code>.env</code> na raiz do projeto e defina as seguintes variáveis:</p>
-
-  <pre>
-  # Configurações da API do servidor
-  REACT_APP_API_URL = "http://localhost:PORT"  # Substitua PORT pelo número da porta configurada no servidor
-  </pre>
-</ol>
-
-<ol>
   <p>Inicie a interface React.js:</p>
 
   <code>npm run dev</code>
 </ol>
 
-<p>Agora você pode acessar a interface de usuário em um navegador em <code>http://localhost:PORT</code> com a  porta que você configurou no arquivo <code>.env</code>.</p>
+<p>Agora você pode acessar a interface de usuário em um navegador em <code>http://localhost:5173</code></p>
 
 <p>Use a interface para interagir com o aplicativo CRUD e realizar operações de criação, leitura, atualização e exclusão de registros.</p>
 
@@ -129,6 +120,8 @@ COLLECTION_NAME = "";
 <h3>Observação:</h3>
 
 <p>Certifique-se de que o servidor CRUD esteja em execução antes de usar a interface React.js para que ela possa se conectar à API do servidor.</p>
+
+<p>Certifique-se de que o a porta do servidor CRUD seja 8080 para usar a interface React.js para que ela possa se conectar à API do servidor.</p>
 
   <h2>Contribuindo</h2>
 
