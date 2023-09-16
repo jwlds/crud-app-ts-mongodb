@@ -103,16 +103,27 @@ COLLECTION_NAME = "";
 <h3>Funcionalidades</h3>
 <ol>
   <l1>Criar um novo usuário.</l1>
-  
-  ![Screencast from 16-09-2023 09_37_26](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/845d0e91-f9ff-417d-8dca-4cca2dc7b7e0)
 
+  ![Screencast from 16-09-2023 09_37_26](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/7b1cff8b-9c45-4144-ab2f-a83467fdd0ec)
+
+  
    <l1>Alterar informações do usuário.</l1>
+
    
-  ![Screencast from 16-09-2023 09_38_04](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/8758fdf4-f1b4-48e1-b1ce-add75896ace1)
+   
+   ![Screencast from 16-09-2023 09_38_04](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/a509c1dc-461c-48dc-8f41-c8c310bf4c0e)
+
+ 
+  
 
    <l1>Deletar um usuário.</l1>
+
+
    
-  ![Screencast from 16-09-2023 09_39_21](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/496aa7cd-def4-4965-a49c-4c64312045d4)
+   ![Screencast from 16-09-2023 09_39_21](https://github.com/jwlds/crud-app-ts-mongodb/assets/104650587/7442ca56-60bb-4c5c-bb1c-0dd14fbd7867)
+
+   
+
 
    
 </ol>
